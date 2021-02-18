@@ -8,6 +8,9 @@ $(document).ready(function() {
 /*
  * Function that is called when the document is ready.
  */
+
+$(".project").click(ga("send", "event", "like", "click"));
+
 function initializePage() {
 	// your code here
 }
